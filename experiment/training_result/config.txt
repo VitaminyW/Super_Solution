@@ -1,0 +1,392 @@
+2022-12-05-22:35:16
+
+n_threads: 6
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: data_path
+data_train: DF2K
+data_test: Set5
+data_range: 1-800/801-810
+scale: [2, 4]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-L
+pre_train: .
+pre_train_dual: .
+n_blocks: 40
+n_feats: 20
+negval: 0.2
+test_every: 1000
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test/
+print_every: 100
+save_results: False
+dual: True
+
+2022-12-05-22:35:54
+
+n_threads: 6
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: data_path
+data_train: DF2K
+data_test: Set5
+data_range: 1-800/801-810
+scale: [2, 4]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-L
+pre_train: .
+pre_train_dual: .
+n_blocks: 40
+n_feats: 20
+negval: 0.2
+test_every: 1000
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test/
+print_every: 100
+save_results: False
+dual: True
+
+2022-12-05-22:36:40
+
+n_threads: 6
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_train
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-L
+pre_train: .
+pre_train_dual: .
+n_blocks: 36
+n_feats: 10
+negval: 0.2
+test_every: 1000
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test/
+print_every: 100
+save_results: False
+dual: True
+
+2022-12-05-22:40:28
+
+n_threads: 6
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_train
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-L
+pre_train: .
+pre_train_dual: .
+n_blocks: 36
+n_feats: 10
+negval: 0.2
+test_every: 1000
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test/
+print_every: 100
+save_results: False
+dual: True
+
+2022-12-05-22:43:33
+
+n_threads: 6
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_train
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-L
+pre_train: .
+pre_train_dual: .
+n_blocks: 36
+n_feats: 10
+negval: 0.2
+test_every: 1000
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test/
+print_every: 100
+save_results: False
+dual: True
+
+2022-12-05-22:48:08
+
+n_threads: 6
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_train
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: .
+pre_train_dual: .
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 1000
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-07-09:07:24
+
+n_threads: 6
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_train
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: .
+pre_train_dual: .
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 100
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-07-09:08:56
+
+n_threads: 6
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_train
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: .
+pre_train_dual: .
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 100
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-07-09:12:55
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_train
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: .
+pre_train_dual: .
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 100
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-07-09:16:15
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_train
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: .
+pre_train_dual: .
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test/
+print_every: 50
+save_results: False
+dual: True
+

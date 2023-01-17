@@ -1,0 +1,27 @@
+The number of parameters is 5.40M
+The number of parameters is 5.40M
+The number of parameters is 5.40M
+
+Reconstruction:
+The number of parameters is 5.40M
+
+Reconstruction:
+The number of parameters is 5.40M
+
+Reconstruction:
+The number of parameters is 5.40M
+
+Reconstruction:
+Total time: 155.85s
+
+The number of parameters is 5.40M
+
+Reconstruction:
+The number of parameters is 5.40M
+
+Reconstruction:
+The number of parameters is 5.40M
+
+Reconstruction:
+Total time: 160.24s
+

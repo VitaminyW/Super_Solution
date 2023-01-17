@@ -1,0 +1,1326 @@
+2022-12-11-10:08:41
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_train
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:09:12
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_train
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:10:55
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:11:24
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:12:32
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:14:25
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:16:42
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:17:20
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:18:10
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:19:15
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:26:41
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:32:33
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:45:07
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:46:47
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:51:04
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:53:05
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:57:49
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:58:50
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-10:59:34
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-11:00:48
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-11:01:58
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-11:03:10
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-11-11:04:53
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-12-00:51:03
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-12-00:52:22
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-12-00:53:30
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 4
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-12-00:54:29
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 4
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-12-00:57:08
+
+n_threads: 12
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 4
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-12-00:59:16
+
+n_threads: 1
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 4
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-12-01:01:38
+
+n_threads: 1
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 4
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-12-01:03:13
+
+n_threads: 1
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-12-01:05:53
+
+n_threads: 1
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-12-01:07:47
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
+2022-12-12-01:09:47
+
+n_threads: 12
+cpu: False
+n_GPUs: 4
+seed: 1
+data_dir: /home/yewei/liif_Data
+data_train: my_fine_tune
+data_test: my_val
+scale: [2, 4, 8]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: /home/yewei/DRN_code/experiment/test/model/model_best.pt
+pre_train_dual: /home/yewei/DRN_code/experiment/test/model/dual_model_best.pt
+n_blocks: 30
+n_feats: 8
+negval: 0.2
+test_every: 50
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: False
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./experiment/test_finetune/
+print_every: 50
+save_results: False
+dual: True
+
